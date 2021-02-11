@@ -22,11 +22,21 @@ To get the needed tag element from HTML code.
 ## Code
 Created 4 functions. Following is the explanation of the core code for each function.
 1. def scrape_weather()  
+~~~
     curr_temp=soup.find("p", attrs={"class":"info_temperature"}).get_text().replace("도씨", "")
-    morning_rain_rate=soup.find("span", attrs={"class":"point_time morning"}).get_text().strip()
-    dust=soup.find("dl", attrs={"class":"indicator"})
-    pm10=dust.find_all("dd")[0].get_text() 
+~~~
 
+~~~
+    morning_rain_rate=soup.find("span", attrs={"class":"point_time morning"}).get_text().strip()
+~~~
+
+~~~
+   dust=soup.find("dl", attrs={"class":"indicator"})
+~~~
+
+~~~
+   pm10=dust.find_all("dd")[0].get_text() 
+~~~
 
 
 ## Running the tests
