@@ -43,5 +43,5 @@ To get the brown smog rate, find "indicator" class in < dl > tag. Find all the <
 
 
 ## Running the tests
-<img src="/images/logo.png" width="50%" height="50%">
+![GitHub Logo](https://github.com/SuyeonSun/Scraping/issues/1#issue-811661675)
 
