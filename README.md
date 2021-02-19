@@ -8,10 +8,10 @@ To solve the inconvenience of daily life by scraping information at once that we
 1. pip install requests  
 Connected to the site by using requests module in order to get response from server.   
 Following are the sites.  
-  -
-  -
-  -
-  -
+  -https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%84%9C%EC%9A%B8+%EB%82%A0%EC%94%A8
+  -https://news.naver.com/
+  -https://news.naver.com/main/list.nhn?mode=LS2D&mid=shm&sid1=105&sid2=230
+  -https://www.hackers.co.kr/?c=s_eng/eng_contents/I_others_english&keywd=haceng_submain_lnb_eng_I_others_english&logger_kw=haceng_submain_lnb_eng_I_others_english
   
 2. re  
 To find the string (tag element) starting with certain character.
