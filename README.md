@@ -13,7 +13,7 @@ Following are the sites.
   - https://news.naver.com/main/list.nhn?mode=LS2D&mid=shm&sid1=105&sid2=230   
   - https://www.hackers.co.kr/?c=s_eng/eng_contents/I_others_english&keywd=haceng_submain_lnb_eng_I_others_english&logger_kw=haceng_submain_lnb_eng_I_others_english   
   
-2. re  
+2. import re  
 To find the string (tag element) starting with certain character.
 
 3. pip install beautifulSoup4
